@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('azienda', 20);
             $table->string('stazione_partenza', 30);
-            $table->string('stazione_arrivo', 30);
+            $table->string('stazione_arrivo', 0);
             $table->time('orario_partenza');
             $table->time('orario_arrivo');
             $table->unsignedTinyInteger('numero_carrozze');
