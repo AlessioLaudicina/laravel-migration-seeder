@@ -3,7 +3,7 @@
 @section ('content')
 
 @foreach ($trains as $train)
-<div class="card " style="width: 18rem;">
+<div class="card m-2" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Compagnia: {{$train->azienda}}</h5>
     <p class="card-text">Stazione di partenza: {{$train->stazione_partenza}}</p>
