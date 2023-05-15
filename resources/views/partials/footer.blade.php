@@ -1,1 +1,1 @@
-<h1>Footer</h1>
+<h1 class="text-center py-4">Footer</h1>

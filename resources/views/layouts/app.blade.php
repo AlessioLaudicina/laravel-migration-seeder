@@ -12,7 +12,7 @@
     @include('partials.header')
 
     <main>
-        <div class="container">
+        <div class="container" style="display: flex; flex-wrap:wrap;">
             @yield('content')
         </div>
     </main>
